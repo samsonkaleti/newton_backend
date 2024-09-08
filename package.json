@@ -1,0 +1,14 @@
+{
+  "name": "newton_backend",
+  "version": "1.0.0",
+  "description": "this is nodejs backend project for learing perpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "samsonkaleti",
+  "license": "ISC"
+}

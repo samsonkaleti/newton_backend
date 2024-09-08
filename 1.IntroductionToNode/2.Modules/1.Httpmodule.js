@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.sendDate('Hello World!\n');  // send HTTP response with a simple message  // end response with a newline character
+    res.end('Hello World!\n');  // send HTTP response with a simple message  // end response with a newline character
     console.log(`Received request from ${req.connection.remoteAddress}`);  // log the IP address of the client that made the request
    
 }) 
